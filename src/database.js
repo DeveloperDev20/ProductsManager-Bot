@@ -22,18 +22,6 @@ async function getProductList(userId) {
   }
 }
 
-async function addProductToUser(userId, productId) {
-  const product = await ProductModel.findById(productId);
-  if (product) {
-    if (!product.users.includes(userId)) {
-      product.users.push(userId);
-      await product.save();
-      return true;
-    }
-  }
-  return false;
-}
-
 
 
 

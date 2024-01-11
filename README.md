@@ -1,5 +1,5 @@
 # V14 Slash Command Handler
-- **Proyect discord.js v14**
+- **Project discord.js v14 with database mongoose & nodejs v16**
 - **ProductsManager Bot by dev2.0**
 
 ![image]()
